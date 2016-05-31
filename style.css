@@ -1,0 +1,52 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+}
+
+p {
+  color: white;
+}
+
+#wrapper {
+  width: 95%;
+  height: 100%;
+  height: auto;
+  /*border: 1px solid red;*/
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#game {
+  width: 75%;
+  height: 100%;
+  /*border: 1px solid blue;*/
+  float: left;
+}
+
+#score {
+  width: 24%;
+  height: 100%;
+  /*border: 1px solid yellow;*/
+  float: left;
+  overflow: hidden;
+}
+
+#player_score, #cpu_score {
+  font-size: 48px;
+}
+
+#created_by {
+  margin-top: 390px;
+}
+
+#gameCanvas {
+  border: 2px solid white;
+  margin-top: 10px;
+  margin-left: 50px;
+}
